@@ -3,9 +3,9 @@ def factorial(n):
         return 1
     else:
         return n*factorial(n-1)
-    number=int(inout("Enter a number:"))
-    if number<0:
-         print("\nError : Factorial is not defined for negative number.")
-    else:
-         result=factorial(number)
-         print(f"\nThe factorial of {number} is{result}")
+number=int(inout("Enter a number:"))
+if number<0:
+    print("\nErro : Factorial is not defined for negative number.")
+else:
+     result=factorial(number)
+     print(f"\nThe factorial of {number} is{result}")
